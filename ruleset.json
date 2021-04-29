@@ -1,6 +1,7 @@
 {
     "Name": "Hide the below warnings",
     "rules": [
+        {},
         {
             "id": "AL0604",
             "action": "hidden",
