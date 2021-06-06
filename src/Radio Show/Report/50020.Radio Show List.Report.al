@@ -1,31 +1,30 @@
 /// <summary>
-/// Report Fan Promotion List (ID 50002).
+/// Report Radio Show List (ID 50000).
 /// </summary>
-report 50002 "Fan Promotion List"
+report 50020 "Radio Show List"
 {
+    DefaultLayout = RDLC;
+
     dataset
     {
-        dataitem(RadioShowFan; "Radio Show Fan")
+        dataitem(RadioShow; "Radio Show")
         {
-            column(Name; Name)
+            column(No; "No.")
             {
             }
-            column(Address; Address)
+            column(Type; Type)
             {
             }
-            column(Adddress2; "Adddress 2")
+            column(Description; Description)
             {
             }
-            column(City; City)
+            column(ResourceNo; "Resource No.")
             {
             }
-            column(County; County)
+            column(ResourceName; "Resource Name")
             {
             }
-            column(CountryRegionCode; "Country/Region Code")
-            {
-            }
-            column(PostCode; "Post Code")
+            column(RunTime; "Run Time")
             {
             }
         }

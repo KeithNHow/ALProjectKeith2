@@ -10,7 +10,11 @@
     "help": "",
     "url": "",
     "logo": "",
-    "dependencies": [
+    "dependencies": [{
+        "id": "94b56ebf-074f-4d28-90e9-0913fcb581c2",
+        "name": "Project Keith",
+        "publisher": "Keith How",
+        "version": "1.0.0.0"}
         ],
     "screenshots": [],
     "platform": "18.0.0.0",
