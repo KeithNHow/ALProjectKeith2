@@ -2,15 +2,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Your own server",
+            "name": "KEITH-NOTEBOOK",
             "request": "launch",
             "type": "al",
             "environmentType": "OnPrem",
-            "server": "http://localhost",
+            "server": "http://keith-notebook",
             "serverInstance": "BC180",
             "authentication": "Windows",
             "startupObjectId": 22,
             "startupObjectType": "Page",
+            "port": 7249,
             "breakOnError": true,
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
