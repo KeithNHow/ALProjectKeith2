@@ -32,7 +32,7 @@ page 50006 "Radio Show Ledger"
                 {
                     ApplicationArea = All;
                 }
-                field(DataFornmat; Rec.DataFormat)
+                field(DataF; Rec.DataF)
                 {
                     ApplicationArea = All;
                 }

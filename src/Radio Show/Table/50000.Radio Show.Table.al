@@ -150,13 +150,13 @@ table 50000 "Radio Show"
         {
             Caption = 'Advertising Revenue';
             FieldClass = FlowField;
-            CalcFormula = Sum("Radio Show Ledger"."Fee Amount" where(Date = field("Date Filter"), DataFormat = const(5)));
+            CalcFormula = Sum("Radio Show Ledger"."Fee Amount" where(Date = field("Date Filter"), DataF = filter(5)));
         }
         field(280; "Royalty Cost"; Decimal)
         {
             Caption = 'Royalty Cost';
             Fieldclass = Flowfield;
-            CalcFormula = Sum("Radio Show Ledger"."Fee Amount" where(Date = field("Date Filter"), DataFormat = filter(1 | 2 | 3)));
+            CalcFormula = Sum("Radio Show Ledger"."Fee Amount" where(Date = field("Date Filter"), DataF = filter(1 | 2 | 3)));
         }
         field(290; "Date Filter"; Date)
         {

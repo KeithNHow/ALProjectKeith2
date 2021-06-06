@@ -32,9 +32,9 @@ table 50003 "Playlist Line"
             IF (Type = CONST(Show)) "Radio Show"."No." ELSE
             IF (Type = CONST(Item)) Item."No.";
         }
-        field(50; DataFormat; Enum "Data Format")
+        field(50; DataF; Enum "Data Format")
         {
-            Caption = 'DataFormat';
+            Caption = 'DataF';
             DataClassification = ToBeClassified;
         }
         field(60; Description; Text[50])

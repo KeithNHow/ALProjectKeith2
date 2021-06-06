@@ -54,7 +54,7 @@ table 50002 "Playlist Header"
             Caption = 'PSA Count';
             FieldClass = FlowField;
             Description = 'DataFormat PSA';
-            CalcFormula = count("Playlist Line" where("Playlist No." = field("No."), Type = const(Item), DataFormat = const(PSA)));
+            CalcFormula = count("Playlist Line" where("Playlist No." = field("No."), Type = const(Item), DataF = const(PSA)));
         }
         field(100; "Advertisements Required"; Integer)
         {
@@ -66,7 +66,7 @@ table 50002 "Playlist Header"
             Caption = 'Advertisement Count';
             FieldClass = FlowField;
             Description = 'Data Format Advertisement';
-            CalcFormula = count("Playlist Line" where("Playlist No." = field("No."), Type = const(Item), DataFormat = Const(Advertisement)));
+            CalcFormula = count("Playlist Line" where("Playlist No." = field("No."), Type = const(Item), DataF = Const(Advertisement)));
         }
         field(120; "News Required"; Integer)
         {

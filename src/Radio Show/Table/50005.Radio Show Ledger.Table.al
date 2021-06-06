@@ -30,9 +30,9 @@ table 50005 "Radio Show Ledger"
             Caption = 'No.';
             DataClassification = ToBeClassified;
         }
-        field(50; DataFormat; Enum "Data Format")
+        field(50; DataF; Enum "Data Format")
         {
-            Caption = 'DataFornmat';
+            Caption = 'DataF';
             DataClassification = ToBeClassified;
         }
         field(60; Description; Text[50])
