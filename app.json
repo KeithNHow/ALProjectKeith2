@@ -2,7 +2,7 @@
     "id": "71a431b0-6ce1-4f7f-a9a8-a7f101d28569",
     "name": "ALProject17Ext2",
     "publisher": "Keith How",
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
     "brief": "Sundry development",
     "description": "Sundry development for learning purpose only.",
     "privacyStatement": "",
@@ -14,7 +14,7 @@
         "id": "5196d166-aebb-4e8d-b86c-37cf532ee020", 
         "name": "ALProject17Ext1", 
         "publisher": "Keith How", 
-        "version": "1.0.0.1"
+        "version": "1.0.0.2"
         }],
     "screenshots": [],
     "platform": "17.0.0.0",
