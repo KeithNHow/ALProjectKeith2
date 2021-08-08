@@ -2,7 +2,7 @@
     "id": "71a431b0-6ce1-4f7f-a9a8-a7f101d28569",
     "name": "ALProject17Ext2",
     "publisher": "Keith How",
-    "version": "1.0.0.1",
+    "version": "1.0.0.0",
     "brief": "Sundry development",
     "description": "Sundry development for learning purpose only.",
     "privacyStatement": "",
@@ -14,16 +14,16 @@
         "id": "5196d166-aebb-4e8d-b86c-37cf532ee020", 
         "name": "ALProject17Ext1", 
         "publisher": "Keith How", 
-        "version": "1.0.0.2"
+        "version": "1.0.0.0"
         }],
     "screenshots": [],
-    "platform": "17.0.0.0",
-    "application": "17.0.0.0",
+    "platform": "18.0.0.0",
+    "application": "18.0.0.0",
     "idRanges": [{
         "from": 50000,
         "to": 50099
         }],
     "contextSensitiveHelpUrl": "https://docs.microsoft.com/en-gb/dynamics365/business-central/",
     "showMyCode": true,
-    "runtime": "6.0"
+    "runtime": "7.0"
 }
