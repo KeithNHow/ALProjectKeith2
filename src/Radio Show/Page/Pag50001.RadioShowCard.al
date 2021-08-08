@@ -80,54 +80,54 @@ page 50001 "Radio Show Card"
             }
             group(Requirements)
             {
-                field("PSA Required Qty."; "PSA Required Qty.")
+                field("PSA Required Qty."; Rec."PSA Required Qty.")
                 {
                     ApplicationArea = All;
                 }
-                field("Advertisement Required Qty."; "Advertisement Required Qty.")
+                field("Advertisement Required Qty."; Rec."Advertisement Required Qty.")
                 {
                     ApplicationArea = All;
                 }
-                field("News Required"; "News Required")
+                field("News Required"; Rec."News Required")
                 {
                     ApplicationArea = All;
                 }
-                field("News Duration"; "News Duration")
+                field("News Duration"; Rec."News Duration")
                 {
                     ApplicationArea = All;
                 }
-                field("Sports Required"; "Sports Required")
+                field("Sports Required"; Rec."Sports Required")
                 {
                     ApplicationArea = All;
                 }
-                field("Sports Duration"; "Sports Duration")
+                field("Sports Duration"; Rec."Sports Duration")
                 {
                     ApplicationArea = All;
                 }
-                field("Weather Required"; "Weather Required")
+                field("Weather Required"; Rec."Weather Required")
                 {
                     ApplicationArea = All;
                 }
-                field("Weather Duration"; "Weather Duration")
+                field("Weather Duration"; Rec."Weather Duration")
                 {
                     ApplicationArea = All;
                 }
             }
             group(Statistics)
             {
-                field("Avg. Listeners"; "Avg. Listeners")
+                field("Avg. Listeners"; Rec."Avg. Listeners")
                 {
                     ApplicationArea = All;
                 }
-                field("Avg. Listener Share"; "Avg. Listener Share")
+                field("Avg. Listener Share"; Rec."Avg. Listener Share")
                 {
                     ApplicationArea = All;
                 }
-                field("Advertising Revenue"; "Advertising Revenue")
+                field("Advertising Revenue"; Rec."Advertising Revenue")
                 {
                     ApplicationArea = All;
                 }
-                field("Royalty Cost"; "Royalty Cost")
+                field("Royalty Cost"; Rec."Royalty Cost")
                 {
                     ApplicationArea = All;
                 }
