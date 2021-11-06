@@ -11,8 +11,8 @@
     "url": "",
     "logo": "",
     "dependencies": [{ 
-        "id": "5196d166-aebb-4e8d-b86c-37cf532ee020", 
-        "name": "ALProject18Ext1", 
+        "id": "94b56ebf-074f-4d28-90e9-0913fcb581c2", 
+        "name": "ALProjectKeith", 
         "publisher": "Keith How", 
         "version": "1.0.0.0"
         }],
@@ -25,5 +25,5 @@
         }],
     "contextSensitiveHelpUrl": "https://docs.microsoft.com/en-gb/dynamics365/business-central/",
     "showMyCode": true,
-    "runtime": "7.0"
+    "runtime": "7.2"
 }
